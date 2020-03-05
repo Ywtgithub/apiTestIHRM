@@ -1,0 +1,21 @@
+2020-03-04 00:16:06,726 - INFO -G:\MyPython\apiTestIHRM\api\__init__.py-14行- 测试日志能否正常打印
+2020-03-04 00:16:06,841 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-63行- 员工模块的登录结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '298bba2b-1224-4f6f-b730-7c8b5ea82aa3'}
+2020-03-04 00:16:06,841 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-67行- 取出的令牌为：Bearer 298bba2b-1224-4f6f-b730-7c8b5ea82aa3
+2020-03-04 00:16:06,841 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-72行- 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 298bba2b-1224-4f6f-b730-7c8b5ea82aa3'}
+2020-03-04 00:16:06,932 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-77行- 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234875214839762944'}}
+2020-03-04 00:16:06,932 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-84行- 保存的员工ID为：1234875214839762944
+2020-03-04 00:16:07,020 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-89行- 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234875214839762944', 'mobile': '18311111811', 'username': '王健林supperstar09xx13433', 'password': '8c317476ca606b3f3d97f37f0bf58bc3', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-04 00:16:07,107 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-96行- 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234875214839762944'}}
+2020-03-04 00:16:07,290 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-103行- 要查询的sql语句为：select username from bs_user where id = 1234875214839762944;
+2020-03-04 00:16:07,345 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-107行- sql查询的结果为：('new_tom',)
+2020-03-04 00:16:07,434 - INFO -G:\MyPython\apiTestIHRM\script\test_emp_script.py-118行- 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-03-04 00:16:07,518 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-18行- 登录成功的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '51629317-df24-470a-bdeb-f5978e9834df'}
+2020-03-04 00:16:07,604 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-27行- 测试用户名不存在的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:07,689 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-36行- 测试密码错误的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:07,776 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-45行- 测试无参的结果为：{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-03-04 00:16:07,858 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-54行- 测试用户名为空的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:07,944 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-63行- 测试密码为空的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:08,026 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-71行- 测试少参mobile的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:08,107 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-79行- 测试少参password的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-04 00:16:08,192 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-87行- 测试多参的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'c8422400-af11-4a54-866a-79493c3bea35'}
+2020-03-04 00:16:08,278 - INFO -G:\MyPython\apiTestIHRM\script\test_login_script.py-95行- 测试错误参数的结果为：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}

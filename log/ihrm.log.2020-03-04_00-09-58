@@ -1,0 +1,11 @@
+2020-03-04 00:09:57,298 - INFO -G:\MyPython\apiTestIHRM\api\__init__.py-14行- 测试日志能否正常打印
+2020-03-04 00:09:57,548 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-20行- 员工模块的登录结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '87dd5cbf-669d-411b-a16f-79554efb598f'}
+2020-03-04 00:09:57,548 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-24行- 取出的令牌为：Bearer 87dd5cbf-669d-411b-a16f-79554efb598f
+2020-03-04 00:09:57,548 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-29行- 员工模块请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 87dd5cbf-669d-411b-a16f-79554efb598f'}
+2020-03-04 00:09:57,638 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-35行- 添加员工接口的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234873665908461568'}}
+2020-03-04 00:09:57,638 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-42行- 保存的员工ID为：1234873665908461568
+2020-03-04 00:09:57,726 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-48行- 查询员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234873665908461568', 'mobile': '18311549901', 'username': '井冈山x04xx001', 'password': 'c4259664d9f60a90b02e31d169df3b31', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1205026005332635648', 'timeOfEntry': '2020-02-01T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-03T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-04 00:09:57,817 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-56行- 修改员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234873665908461568'}}
+2020-03-04 00:09:57,987 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-63行- 要查询的sql语句为：select username from bs_user where id = 1234873665908461568;
+2020-03-04 00:09:58,039 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-67行- sql查询的结果为：('new_tom',)
+2020-03-04 00:09:58,126 - INFO -G:\MyPython\apiTestIHRM\script\employee_params.py-78行- 删除员工的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
